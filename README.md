@@ -16,11 +16,11 @@ Here, we explore transfer learning from such a crowdsourced data treasure to the
 ![Workflow](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping/blob/main/workflow.png)
 
 
-## Result
+## Results
 Our results demonstrate that CNN models trained with heterogeneous, crowdsourced plant photographs can indeed predict the target species in UAV orthoimages with surprising accuracy. Filtering the crowdsourced photographs used for training by acquisition properties increased the predictive performance. This study demonstrates that citizen science data can effectively anticipate a common bottleneck for vegetation assessments and provides an example on how we can effectively harness the ever-increasing availability of crowdsourced and big data for remote sensing applications.
 
 
-*Model evaluation based on training data, test data and terrestrial laser scanning. A manuscript describing the method and its evaluation is currently in review.*
+* A manuscript describing the approach is currently in review.*
 ## Use AngleCam and how to contribute
 * R-Scripts for This study  can be found in [CNN_photo_uav](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping).
 
