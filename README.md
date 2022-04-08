@@ -12,7 +12,7 @@ Both approaches are laborious and can present a critical bottleneck for CNN appl
 
 
 ## Method
-Here, we explore transfer learning from such a crowdsourced data treasure to the remote sensing context. Therefore, we investigate firstly, if we can use crowdsourced plant photographs for CNN training and subsequent mapping of plant species in high-resolution remote sensing imagery. Secondly, we test if the predictive performance can be increased by a priori selecting photographs that share a more similar perspective to the remote sensing data. We used two case studies to test our proposed approach with multiple RGB orthoimages acquired from UAV with the target plant species Fallopia japonica and Portulacaria afra respectively. 
+In this study, we explore transfer learning from such a crowdsourced data treasure to the remote sensing context. Therefore, we investigate firstly, if we can use crowdsourced plant photographs for CNN training and subsequent mapping of plant species in high-resolution remote sensing imagery. Secondly, we test if the predictive performance can be increased by a priori selecting photographs that share a more similar perspective to the remote sensing data. We used two case studies to test our proposed approach with multiple RGB orthoimages acquired from UAV with the target plant species Fallopia japonica and Portulacaria afra respectively. 
 ![Workflow](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping/blob/main/workflow.png)
 
 
