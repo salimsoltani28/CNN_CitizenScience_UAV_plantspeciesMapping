@@ -1,7 +1,7 @@
 # Transfer learning from citizen science photographs enables plant species identification in UAVs imagery
 ## Contents
-[Introduction](#Introduction)
-[Method](#Method)
+[Introduction](#Introduction) |||
+[Method](#Method) |||
 [Results](#Results)
 ## Introduction
 Accurate information on the spatial distribution of plant species and communities is in high demand for various fields of application, such as nature conservation, 
