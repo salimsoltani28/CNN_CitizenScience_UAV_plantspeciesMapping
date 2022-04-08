@@ -16,12 +16,15 @@ Here, we explore transfer learning from such a crowdsourced data treasure to the
 ![Workflow](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping/blob/main/workflow.png)
 
 
+## Result
+Our results demonstrate that CNN models trained with heterogeneous, crowdsourced plant photographs can indeed predict the target species in UAV orthoimages with surprising accuracy. Filtering the crowdsourced photographs used for training by acquisition properties increased the predictive performance. This study demonstrates that citizen science data can effectively anticipate a common bottleneck for vegetation assessments and provides an example on how we can effectively harness the ever-increasing availability of crowdsourced and big data for remote sensing applications.
+
 
 *Model evaluation based on training data, test data and terrestrial laser scanning. A manuscript describing the method and its evaluation is currently in review.*
 ## Use AngleCam and how to contribute
-* R-Scripts for running AngleCam can be found in [code_run_AngleCam](https://github.com/tejakattenborn/AngleCAM/tree/main/code_run_AngleCam).
-* The mandatory model object (hdf5) and example data can be downloaded from https://doi.org/10.6084/m9.figshare.19544134
+* R-Scripts for This study  can be found in [CNN_photo_uav](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping).
+
 The code requires a running TensorFlow instlation (see script for some help ressources).
 Please contact me if you find any bugs or have problems getting the models running:
-https://rsc4earth.de/authors/tkattenborn/     https://twitter.com/TejaKattenborn
-Current evaluations indicate the transferability of the approach across scence conditions, species and plant forms. However, we cannot eventually state how well the models perform on your datasets (which may be composed of very different species, leaf forms or cameras). Additional labels (reference data) may be helpful to tune the model towards you application scenario. A [R-script](https://github.com/tejakattenborn/AngleCAM/blob/main/code_manuscript/01_labelling_leaf_angles.R) for producing new reference data is included in this repository. We would be very thankful if you would share these samples with us, so we can continuously improve the model performance and transferability. In return, we provide you a model object that was optimized for your data. AngleCam is truly in a alpha-phase and it success also depends on your help. Contributors will ofcourse be involved in upcoming analysis and scientific output.
+https://rsc4earth.de/authors/ssoltani/     https://twitter.com/Salim_Soltani1
+
