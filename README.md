@@ -16,9 +16,7 @@ Here, we explore transfer learning from such a crowdsourced data treasure to the
 ![Workflow](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping/blob/main/workflow.png)
 
 
-![diurnal](https://github.com/tejakattenborn/AngleCAM/blob/main/illustrations_small.png) ![val](https://github.com/tejakattenborn/AngleCAM/blob/main/AngleCam_val.png)
-*Model evaluation based on training data, test data and terrestrial laser scanning. A manuscript describing the method and its evaluation is currently in review.*
-![tls validation](https://github.com/tejakattenborn/AngleCAM/blob/main/tlsleaf_anglecam_comparison.png)
+
 *Model evaluation based on training data, test data and terrestrial laser scanning. A manuscript describing the method and its evaluation is currently in review.*
 ## Use AngleCam and how to contribute
 * R-Scripts for running AngleCam can be found in [code_run_AngleCam](https://github.com/tejakattenborn/AngleCAM/tree/main/code_run_AngleCam).
