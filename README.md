@@ -7,12 +7,15 @@
 Accurate information on the spatial distribution of plant species and communities is in high demand for various fields of application, such as nature conservation, 
 forestry, and agriculture. A series of studies has shown that Convolutional Neural Networks (CNNs) accurately predict plant species and communities in high-resolution remote sensing data, in particular with data at the centimeter scale acquired with Unoccupied Air Vehicles (UAVs). However, such tasks often require ample training data, which is commonly generated in the field via geocoded in-situ observations or labeling remote sensing data through visual interpretation.
 Both approaches are laborious and can present a critical bottleneck for CNN applications. An alternative source of training data is given by using knowledge on the appearance of plants in the form of plant photographs from citizen science projects such as the iNaturalist database. Such crowdsourced plant photographs typically exhibit very different perspectives and great heterogeneity in various aspects, yet the sheer volume of data could reveal great potential for application to bird's eye views.
-Here, we explore \hl{transfer learning from such a crowdsourced data treasure to} the remote sensing context. Therefore, we investigate firstly, if we can use crowdsourced plant photographs for CNN training and subsequent mapping of plant species in high-resolution remote sensing imagery. Secondly, we test if the predictive performance can be increased \hl{by a priori selecting} photographs that share a more similar perspective to the remote sensing data. We used two case studies to test our proposed approach with multiple RGB orthoimages acquired from UAV with the target plant species \textit{Fallopia japonica} and \textit{Portulacaria afra} respectively. 
 
+
+
+
+## Method
+Here, we explore transfer learning from such a crowdsourced data treasure to the remote sensing context. Therefore, we investigate firstly, if we can use crowdsourced plant photographs for CNN training and subsequent mapping of plant species in high-resolution remote sensing imagery. Secondly, we test if the predictive performance can be increased by a priori selecting photographs that share a more similar perspective to the remote sensing data. We used two case studies to test our proposed approach with multiple RGB orthoimages acquired from UAV with the target plant species Fallopia japonica and Portulacaria afra respectively. 
 ![Workflow](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping/blob/main/workflow.png)
 
-## Approach and evaluation
-AngleCam is based on Convolutional Neural Networks (at current stage with TensorFlow and the EfficientNet backbone). We trained the networks with several thousands reference samples that were generated from visual interpretation of invidiual image frames. For each image frame, we sampled 20 leaves, which were then converted to a leaf angle distribution (beta distribution). The CNN models were, hence, trained to predict a leaf angle distribution for each individual image. The model accuracy was estimated from independent holdouts. Additionally, we performed a independent validation using terrestrial laser scanning and the [TLSLeAF method by Atticus Stovall](https://github.com/aestovall/TLSLeAF).
+
 ![diurnal](https://github.com/tejakattenborn/AngleCAM/blob/main/illustrations_small.png) ![val](https://github.com/tejakattenborn/AngleCAM/blob/main/AngleCam_val.png)
 *Model evaluation based on training data, test data and terrestrial laser scanning. A manuscript describing the method and its evaluation is currently in review.*
 ![tls validation](https://github.com/tejakattenborn/AngleCAM/blob/main/tlsleaf_anglecam_comparison.png)
