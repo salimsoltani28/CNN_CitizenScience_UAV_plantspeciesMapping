@@ -21,7 +21,7 @@ Our results demonstrate that CNN models trained with heterogeneous, crowdsourced
 
 
 * A manuscript describing the approach is currently in review.*
-## Use AngleCam and how to contribute
+## Code & contacts
 * R-Scripts for This study  can be found in [CNN_photo_uav](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping).
 
 The code requires a running TensorFlow instlation (see script for some help ressources).
