@@ -1,0 +1,3 @@
+
+The following Python code is used to download non-plant photos that are not available in the iNaturalist database using the Google Image API.
+The code can be accessed via the following Github repository: https://github.com/ohyicong/Google-Image-Scraper 
