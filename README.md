@@ -1,8 +1,8 @@
 # Transfer learning from citizen science photographs enables plant species identification in UAVs imagery
 ## Contents
-[Introduction](#Introduction) |||
-[Method](#Method) |||
-[Results](#Results)
+## [Introduction](#Introduction) |||
+## [Method](#Method) |||
+## [Results](#Results)
 
 ## [Link to the paper](https://doi.org/10.1016/j.ophoto.2022.100016)
 ![Paper](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping/blob/main/Paper_header.PNG)
@@ -24,7 +24,6 @@ In this study, we explore transfer learning from such a crowdsourced data treasu
 Our results demonstrate that CNN models trained with heterogeneous, crowdsourced plant photographs can indeed predict the target species in UAV orthoimages with surprising accuracy. Filtering the crowdsourced photographs used for training by acquisition properties increased the predictive performance. This study demonstrates that citizen science data can effectively anticipate a common bottleneck for vegetation assessments and provides an example on how we can effectively harness the ever-increasing availability of crowdsourced and big data for remote sensing applications.
 
 
-* A manuscript describing the approach is currently in review.*
 ## Code & contacts
 * R-Scripts for This study  can be found in [CNN_photo_uav](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping).
 
