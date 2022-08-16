@@ -4,7 +4,7 @@
 [Method](#Method) |||
 [Results](#Results)
 
-##Link to the paper : [paer_link](https://doi.org/10.1016/j.ophoto.2022.100016)
+## [Link to the paper](https://doi.org/10.1016/j.ophoto.2022.100016)
 ![Paper](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping/blob/main/Paper_header.PNG)
 
 ## Introduction
