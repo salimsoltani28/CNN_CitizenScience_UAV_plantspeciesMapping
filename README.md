@@ -3,6 +3,9 @@
 [Introduction](#Introduction) |||
 [Method](#Method) |||
 [Results](#Results)
+
+![Paper](https://github.com/salimsoltani28/CNN_CitizenScience_UAV_plantspeciesMapping/blob/main/Paper_header.PNG)
+
 ## Introduction
 Accurate information on the spatial distribution of plant species and communities is in high demand for various fields of application, such as nature conservation, 
 forestry, and agriculture. A series of studies has shown that Convolutional Neural Networks (CNNs) accurately predict plant species and communities in high-resolution remote sensing data, in particular with data at the centimeter scale acquired with Unoccupied Air Vehicles (UAVs). However, such tasks often require ample training data, which is commonly generated in the field via geocoded in-situ observations or labeling remote sensing data through visual interpretation.
